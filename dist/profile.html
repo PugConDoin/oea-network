@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Welcome to The Olives Et Al Tribe</title>
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+      <h1>
+        <a href="dashboard.html"> <i class="fas fa-atom"></i>TribeConnector </a>
+      </h1>
+      <ul>
+        <li><a href="profiles.html">Oliveers</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+      <a href="profiles.html" class="btn">Back to Oliveers</a>
+      <div class="profile-grid my-1">
+        <!-- Top -->
+        <div class="profile-top bg-primary p-2">
+          <img
+            class="round-img"
+            src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"
+            alt=""
+          />
+          <h1 class="large">John Doe</h1>
+          <p class="lead">Manager of The Freshest Farm Shop</p>
+          <p>Greensborough, Mineralshire</p>
+          <div class="icons my-1">
+            <a href="#">
+              <i class="fas fa-globe fa-2x"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="#"> <i class="fab fa-facebook fa-2x"></i> </a
+            ><a href="#">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </div>
+        </div>
+        <!-- About -->
+        <div class="profile-about bg-light p-2">
+          <h2 class="text-primary">About</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+            illo minus quisquam earum similique dignissimos soluta aperiam quis?
+            Reprehenderit, obcaecati!
+          </p>
+          <div class="line"></div>
+          <h2 class="text-primary">Products</h2>
+          <div class="skills">
+            <div class="p-1">
+              <i class="fas fa-check margin-right"></i>Olives in Jars
+            </div>
+            <div class="p-1">
+              <i class="fas fa-check margin-right"></i>Dressings
+            </div>
+            <div class="p-1">
+              <i class="fas fa-check margin-right"></i>Sauces
+            </div>
+            <div class="p-1">
+              <i class="fas fa-check margin-right"></i>Nuts in Jars
+            </div>
+            <div class="p-1">
+              <i class="fas fa-check margin-right"></i>Captain Tiptoes Snacks
+            </div>
+          </div>
+        </div>
+        <!-- Location -->
+        <div class="profile-loc bg-white p-2">
+          <h2 class="text-primary">Where to Find Us</h2>
+          <div>
+            <h3>The Freshest Farm Shop</h3>
+            <p>Greensborough, Mineralshire</p>
+            <p><strong>Telephone: </strong> 01234 567 890</p>
+            <p><strong>Monday: </strong> 9am - 5pm</p>
+            <p><strong>Tuesday: </strong> 9am - 5pm</p>
+            <p><strong>Wednesday: </strong> 9am - 5pm</p>
+            <p><strong>Thursday: </strong> 9am - 5pm</p>
+            <p><strong>Friday: </strong> 9am - 5pm</p>
+            <p><strong>Saturday: </strong> 10am - 4pm</p>
+            <p><strong>Sunday: </strong> Closed</p>
+          </div>
+        </div>
+        <!-- Map -->
+        <div class="profile-dir bg-white p-2">
+          <h2 class="text-primary">Get Directions</h2>
+          <div>
+            <h3>From door to store</h3>
+            <p>A map and your directions will open in a new window.</p>
+            <form
+              action="http://maps.google.com/maps"
+              method="get"
+              target="_blank"
+              class="form"
+            >
+              <label for="saddr"></label>
+              <input type="text" name="saddr" placeholder="Enter postcode" />
+              <input
+                type="hidden"
+                name="daddr"
+                value="olivest et al, sturminster newton, dt10 2ga"
+              />
+              <input
+                class="btn btn-primary"
+                type="submit"
+                value="Get directions"
+              />
+            </form>
+          </div>
+        </div>
+        <!-- Favourite Recipes -->
+        <div class="profile-recipes">
+          <h2 class="text-primary my-1">
+            <i class="fas fa-cookie-bite margin-right"></i>Favourite Recipes
+          </h2>
+          <div class="recipe bg-white my-1 p-1">
+            <div>
+              <h4>
+                <a
+                  href="http://www.nutritionalfoodie.com/easy-gingerbread-pecan-butter/"
+                  target="_blank"
+                  >Easy Homemade Gingerbread Pecan Butter
+                </a>
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                quam molestias perferendis ipsum soluta blanditiis reiciendis
+                magnam est id quidem!
+              </p>
+            </div>
+          </div>
+          <div class="recipe bg-white my-1 p-1">
+            <div>
+              <h4>
+                <a
+                  href="https://cookieandkate.com/best-tabbouleh-recipe/"
+                  target="_blank"
+                  >The Best Tabbouleh
+                </a>
+              </h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                quam molestias perferendis ipsum soluta blanditiis reiciendis
+                magnam est id quidem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
